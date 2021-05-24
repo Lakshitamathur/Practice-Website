@@ -1,0 +1,240 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header
+{
+    background-image:url(../images/newhomme.png);
+    background-repeat: repeat-x top;
+    width: 100%;
+    height: 155px;
+    border-top: #0074bf 3px solid;
+    border-bottom: #dfdfdf 5px solid;
+}
+.header
+{
+    width: 1000px;
+    height: 527px;
+    margin: 0px auto;
+    clear: both;
+}
+.row1
+{
+    width: 1000px;
+    float: left;
+}
+.row1 .logo
+{
+    float: left;
+    height: 84px;
+    padding: 20px 0px 0px 10px;
+}
+.top-contact
+{
+    font-family: Arial, Verdana, Tahoma, ms sans serif;
+    font-size: 20px;
+    color: #003399;
+    float: right;
+    margin-left: 79px;
+    margin-top: 25px;
+    text-align: right;
+    line-height: 30px;
+    padding-right: 5px;
+
+}
+.row2
+{
+    float: left;
+    padding-top: 20px ;
+}
+.sidenav
+{
+    float: left;
+    width: 9px;
+    height: 49px;
+}
+.nav
+{
+    background: url(../images/menubgrep.png) repeat-x;
+    height: 49px;
+    width: 982px;
+    float: left;
+    border-radius: 50px 50px 50px 50px;
+}
+.nav ul
+{
+    display: flex;
+    list-style: none;
+}
+.nav ul li a
+{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px 10px 0px 10px;
+    float: left;
+    border-right: rgb(101, 136, 182) 1px solid;
+    height: 34px;
+    text-align: center;
+}
+.nav ul li a:hover
+{
+    
+}
+.getaquote
+{
+    float: right;
+    padding-left: 20%;
+}
+.getaquote img
+{
+    float: left;
+    padding-right: 10px;
+    transform:translateY(0px);
+    transition: 1s;
+}
+.getaquote img:hover
+{
+    transform: translateY(-10px);
+}
+.banner
+{
+    height: 416px;
+    background-image: url(../images/sliderbg.jpg);
+    width: 100%;
+    border-bottom: #dfdfdf 5px solid;
+}
+.banner div
+{
+    width: 1000px;
+    margin: auto;
+}
+.middle
+{
+    width: 1000px;
+    margin: auto;
+}
+.our-best
+{
+    background-image: url(../images/inner_menubelow2.png) ;
+    background-repeat: no-repeat;
+    float: left;
+    background-size:  958px 43px;
+    width: 874px;
+    height: 43px;
+    margin: 30px 0px 20px 20px ;
+    border-radius: 50px 50px 50px 50px;
+}
+.our-best a
+{
+   font-size: 19px;
+   text-align: center;
+   float: left;
+   padding:10px 0px 0px 20px;
+}
+.middle-para
+{
+    width: 470px;
+    float: left;
+    padding: 10px 0px 30px 30px;
+}
+.middle-para a
+{
+    text-decoration: none;
+    font-family: Calibri;
+    font-size: 20px;
+    color: #334453;
+    text-align: center;
+}
+.middle-para p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #555555;
+    line-height: 21px;
+    float: left;
+    margin-top: 35px;
+    width: 242px;
+    padding-right: 30px;
+}
+.middle-para span
+{
+    color: #003399;
+    font-weight: bold;
+}
+.middle-para img
+{
+    float: left;
+    margin-top: 10px;
+    transform: rotateY(0deg);
+    transition: 1s;
+}
+.middle-para img:hover
+{
+    transform: rotateY(360deg);
+}
+.last-middle
+{
+    background: url(../images/midback.png) no-repeat;
+    margin: auto;
+    float: left;
+    padding-bottom: 90px;
+    width: 1000px;
+}
+footer
+{
+    background: url(../images/sliderbg.jpg) repeat-x center;
+    margin: 0px auto;
+    width: 100%;
+    float: left;
+    height: 400px;
+}
+.divfooter
+{
+    width: 1000px;
+    margin: auto;
+}
+.divfooter div
+{
+    width: 300px;
+    height: 233px;
+    padding: 10px 0px 0px 30px;
+    float: left;
+}
+.divfooter div h2
+{
+    color: white;
+    padding: 40px 0px 10px 0px;
+}
+.divfooter div p
+{
+    color: white;
+    padding: 20px 10px 0px 0px;
+    float: left;
+    text-align: right;
+    width: 170px;
+    font-size: 13px;
+    margin: auto;
+    clear: both;
+}
+.divfooter a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.divfooter li
+{
+    padding: 10px 10px 10px 10px ;
+}
+.divfooter ul
+{
+    list-style: url(../images/footer_arrow.png);
+    padding-left:20px ;
+}
